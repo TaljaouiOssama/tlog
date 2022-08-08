@@ -1,0 +1,54 @@
+.tracking-system{
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    background-color:white;
+  
+  }
+  .left-side{
+    width: 40%; 
+  }
+  .left-side img{
+    position:relative;
+    top:100px;
+    width:100%;
+}
+  .right-side{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+  .item{
+    height:25%;
+
+  }
+  .title{
+    height: 10%;
+    color: black;
+    font-size: 2em;
+    font-family: gilroy;
+  }
+  h3{
+    width: 578px;
+    position: relative;
+    font-family: gilroy;
+    top:10px;
+    display: block;
+    color: black;
+    font-size: 1.5em;
+  }
+  span{
+    font-family: gilroy;
+    display: block;
+    color: #475467;
+    font-size: 1em;
+    width: 578px;
+  }
+  .item div svg{
+    width: 2em;
+    height: 2em;
+    position: relative;
+    top:30px;
+    /* text-align:center; */
+    
+}

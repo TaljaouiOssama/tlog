@@ -1,0 +1,32 @@
+.about-us{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    background-color:white;
+  }
+  .left-side{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+  .right-side{
+    width: 35%;
+  }
+
+  h2{
+    height: 80px;
+    width: 578px;
+    position: relative;
+    font-family: gilroy;
+    top:10px;
+    display: block;
+    color: black;
+    font-size: 4em;
+  }
+  p{
+    font-family: gilroy;
+    display: block;
+    color: #475467;
+    font-size: 1.2em;
+    width: 578px;
+  }

@@ -1,0 +1,25 @@
+<div class="logo">
+    <img src="https://tlog.ma/assets/lastversion/assets/img/logo/Tlog_logo_white.png">
+</div>
+<div *ngIf="innerWidth>1200;else other_content" class="navbar">
+    
+    <div class="item" style="width: 8%;"><button  >about us</button></div>
+    <div class="item"  style="width: 6%;"><button>services</button></div>
+    <div class="item" style="width: 6%;"><button  >API</button></div>
+    <div class="item"  style="width: 9%;"><button>use cases</button></div>
+    <div class="item"  style="width: 6%;"><button>pricing</button></div>
+    <div class="item"  style="width: 8%;"></div>
+    <div class="item" style="width: 15%;"> <button>track chippement</button></div>
+    <div class="item" style="width: 6%;">
+        <select class="select">
+            <option>arabic</option>
+            <option>english</option>
+            <option>french</option>
+        </select>
+    </div>
+    <div class="item" style="width: 8%;"><button class="sign">sign in</button></div>
+       
+</div>
+<ng-template #other_content><div class="navbar" ></div></ng-template>
+
+

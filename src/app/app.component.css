@@ -1,0 +1,207 @@
+button{
+    margin-top: 30px;
+    background-color:red;
+    color: white;
+    font-family: "Poppins/Bold";
+    font-size: 25px;
+    border:1px solid red;
+    border-radius: 2px;
+    width: 50%;
+    cursor: pointer;
+}
+button:hover{
+    background-color:black;
+    color: red;
+    border-top:1.5px solid red;
+}
+span{
+    font-family: "Poppins/Regular";
+    padding-top:50px;
+    display: block;
+    color: white;
+    font-size: 0.6em;
+}
+.icon-logo-star {
+    position: absolute;
+    fill:red;
+    width: 10%;
+    height: 10%;
+    z-index: 2;
+    top: 200px;
+    left:35%;
+}
+.input-group {
+    margin-top:100px;
+    width: 60%;
+    padding-left:20%;
+    height:50px ;
+    width:100%;
+    background-color: black;
+  }
+ 
+  
+  .input {
+    min-height: 50px;
+    width: 30%;
+    padding: 0 1rem;
+    color: #fff;
+    font-size: 15px;
+    /* border: 1px solid red; */
+    border:none;
+    border-left: 3px solid red;
+    background-color: black;
+    float: left;
+  }
+  
+  .button--submit {
+    position: relative;
+    float: left;
+    min-height: 56px;
+    width: 10%;
+    size: 20%;
+    margin-top: 0px;
+    border: 1px solid red;
+    border-radius: 0 6px 6px 0;
+    background-color: red;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+    
+  }
+  
+  .button--submit:hover {
+    background-color:black;
+    color:white;
+  }
+  
+  .input:focus, .input:focus-visible {
+    border-color: red;
+    outline: none;
+  }
+  #container{
+    position:relative;
+  }
+  #container img {
+    position:absolute;
+    left:0;
+    width: 80%;
+  }
+  
+  @-webkit-keyframes imgFade {
+   0% {
+     opacity:1;
+   }
+   17% {
+     opacity:1;
+   }
+   25% {
+     opacity:0;
+   }
+   92% {
+     opacity:0;
+   }
+   100% {
+     opacity:1;
+   }
+  }
+  
+  @-moz-keyframes imgFade {
+   0% {
+     opacity:1;
+   }
+   17% {
+     opacity:1;
+   }
+   25% {
+     opacity:0;
+   }
+   92% {
+     opacity:0;
+   }
+   100% {
+     opacity:1;
+   }
+  }
+  
+  @-o-keyframes imgFade {
+   0% {
+     opacity:1;
+   }
+   17% {
+     opacity:1;
+   }
+   25% {
+     opacity:0;
+   }
+   92% {
+     opacity:0;
+   }
+   100% {
+     opacity:1;
+   }
+  }
+  
+  @keyframes imgFade {
+   0% {
+     opacity:1;
+   }
+   17% {
+     opacity:1;
+   }
+   25% {
+     opacity:0;
+   }
+   92% {
+     opacity:0;
+   }
+   100% {
+     opacity:1;
+   }
+  }
+  
+  #container img {
+    -webkit-animation-name: imgFade;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 8s;
+  
+    -moz-animation-name: imgFade;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-duration: 8s;
+  
+    -o-animation-name: imgFade;
+    -o-animation-timing-function: ease-in-out;
+    -o-animation-iteration-count: infinite;
+    -o-animation-duration: 8s;
+  
+    animation-name: imgFade;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+  }
+  #container img:nth-of-type(1) {
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    animation-delay: 6s;
+  }
+  #container img:nth-of-type(2) {
+    -webkit-animation-delay: 4s;
+    -moz-animation-delay: 4s;
+    -o-animation-delay: 4s;
+    animation-delay: 4s;
+  }
+  #container img:nth-of-type(3) {
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -o-animation-delay: 2s;
+    animation-delay: 2s;
+  }
+  #container img:nth-of-type(4) {
+    -webkit-animation-delay: 0;
+    -moz-animation-delay: 0;
+    -o-animation-delay: 0;
+    animation-delay: 0;
+  }

@@ -1,0 +1,55 @@
+.logo{
+    background-color:black;
+    width: 150px;
+    height: 100px;
+    float:left;
+    
+}
+.logo img{
+    position :relative;
+    top:15px;
+    width: 80%;
+    padding-left:40px
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap: wrap;
+    padding-bottom: 5px;
+    background-color: black;
+    height: 95px;
+    
+}
+.item{
+    
+    display:inline-block;
+}
+
+select ,button{
+    background-color:black;
+    color: white;
+    font-family: champagne;
+    font-size: 22px;
+    letter-spacing: 1px;
+    border:none;
+    border-radius: 2px;
+    width: 100%;
+}
+select:hover, button:hover{
+    background-color:black;
+    color: red;
+    border-top:1.5px solid red;
+    
+
+}
+.sign{
+    border:1px solid white;
+    border-radius: 4px;
+    padding-left:5px ;
+    padding-right:5px ;
+}
+.sign:hover{
+    border:1.5px solid red;
+}

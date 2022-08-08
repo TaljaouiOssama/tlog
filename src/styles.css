@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+@font-face {
+    font-family: gilroy;
+    src: url(assets/fonts/Gilroy-Bold.ttf) format("opentype");
+  }
+  
+  @font-face {
+    font-family: champagne;
+    src: url(assets/fonts/Champagne-Limousines.ttf) format("opentype");
+  }
+
+body {
+    margin:0px;
+}
