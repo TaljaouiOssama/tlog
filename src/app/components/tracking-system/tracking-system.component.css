@@ -1,19 +1,22 @@
 .tracking-system{
-    display: flex;
-    justify-content: space-around;
-    height: 600px;
-    background-color:white;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  flex-wrap: wrap;
+  background-color:white;
+  width:90%;
+  margin:auto;
   
   }
   .tracking-system-left-side{
-    width: 40%; 
+    flex: 0 1 700px;
   }
   .tracking-system-left-side img{
 
     width:100%;
 }
   .tracking-system-right-side{
-    width: 45%;
+    flex: 1;
     display: flex;
     flex-direction: column;
   }

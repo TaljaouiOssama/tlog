@@ -11,7 +11,7 @@ export class WelcomeV2Component implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    gsap.to(".svg-car", {rotation: 0, x: 730, duration: 5});
+    gsap.to(".svg-car", {rotation: 0, x:750, duration: 5});
     gsap.from(".welcome-left-side", { y: 50, duration: 5}); 
     gsap.from(".delivery-man", {opacity: 0, y: 10, duration: 5});
   }

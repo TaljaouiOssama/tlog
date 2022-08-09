@@ -9,6 +9,14 @@
     font-family: champagne;
     src: url(assets/fonts/Champagne-Limousines.ttf) format("opentype");
   }
+  @font-face {
+    font-family: OpenSans-Regular;
+    src: url(assets/fonts/OpenSans-Regular.ttf) format("opentype");
+  }
+  @font-face {
+    font-family: OpenSans-Semibold;
+    src: url(assets/fonts/OpenSans-Semibold.ttf) format("opentype");
+  }
 
 body {
     margin:0px;

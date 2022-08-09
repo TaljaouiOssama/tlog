@@ -44,7 +44,7 @@ gsap.to(val, {
         
   }
 });
-gsap.to(".svg-car", {rotation: 0, x: 800, duration: 5});
+gsap.to(".svg-car", {rotation: 0, x: 700, duration: 5});
 gsap.to("button", {rotationZ: 1080, duration: 5});
 gsap.from(".blob-svg", {opacity: 0, y: 10, duration: 5});
 gsap.from(".welcome-left-side", { y: 50, duration: 5}); 

@@ -1,20 +1,21 @@
 .tracking{
-  display: flex;
-  justify-content: space-around;
-  height: 600px;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  flex-wrap: wrap-reverse;
   background-color:white;
 }
 .tracking-left-side{
   width: 55%;
-  display: flex;
+  display:flex;
+  flex :1 0 50%;
   flex-direction: column;
-  position: relative;
-  top:100px;
-
+  align-items:center;
+  flex-wrap: wrap;
+  
 }
 .tracking-right-side{
-  width: 35%;
-  opacity: 1 !important;
+  flex: 0 1 500px;
 
 }
 .tracking-right-side img{
@@ -25,27 +26,20 @@
 }
 span{
   font-family: gilroy;
-  display: block;
   color: #475467;
   font-size: 2em;
-  height: 50px;
-  width: 578px;
 }
 h2{
-  height: 138px;
-  width: 100%;
   position: relative;
   font-family: gilroy;
-  top:10px;
-  display: block;
   color: black;
-  font-size: 5em;
+  font-size: 4em;
+  align-self:center;
+  text-align: center;
 }
 .input-group{
-  height: 28px;
   display: flex;
-  width: 60%;
-  padding: auto;
+  justify-content: start;
 }
 .input-group input{
   width: 80%;

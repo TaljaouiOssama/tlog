@@ -14,8 +14,7 @@
   }
 
   h2{
-    height: 80px;
-    width: 578px;
+    width: 100%;
     position: relative;
     font-family: gilroy;
     top:10px;
@@ -28,5 +27,5 @@
     display: block;
     color: #475467;
     font-size: 1.2em;
-    width: 578px;
+    width: 100%;
   }

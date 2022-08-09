@@ -1,9 +1,6 @@
 .services{
-    height:700px ;
-    width:100%;
     background:linear-gradient(white,white,white,#f7bee6);
     position: relative;
-    top: -140px;
     display: flex;
     flex-direction: column;
     
@@ -14,11 +11,12 @@
     font-family:gilroy;
     font-size:35px;
     color:black;
-    height:100px;
 }
 .servicesSides{
     display:flex;
     justify-content:space-around;
+    align-items:center;
+    flex-wrap: wrap;
     /* margin-top:100px; */
 }
 .services-left-side{
@@ -26,7 +24,7 @@
     position:relative;
     top:0px;
     font-size:35px;
-    width:40%;   
+    flex:0 1 500px;   
     padding-left:100px;
     z-index:1;
 }
@@ -35,16 +33,13 @@
 }
 .services-right-side{
     position:relative;
-    top:150px;
-    right:50px;
     color:black;
     font-size:35px;
-    width:40%; 
+    flex:1 0;   
     font-family: 'Poppins/Bold';  
     z-index:1;
     display:flex;
     flex-direction: column; 
-    height:500px;
     background-color: transparent;
 
 }
@@ -52,6 +47,7 @@
     height:45%;
     display:flex;
     justify-content:space-around;
+    flex-wrap: wrap;
 }
 .services-right-side .item div{
     width:45%;
