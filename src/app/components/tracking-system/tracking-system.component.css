@@ -5,16 +5,15 @@
     background-color:white;
   
   }
-  .left-side{
+  .tracking-system-left-side{
     width: 40%; 
   }
-  .left-side img{
-    position:relative;
-    top:100px;
+  .tracking-system-left-side img{
+
     width:100%;
 }
-  .right-side{
-    width: 40%;
+  .tracking-system-right-side{
+    width: 45%;
     display: flex;
     flex-direction: column;
   }
@@ -25,30 +24,30 @@
   .title{
     height: 10%;
     color: black;
-    font-size: 2em;
+    font-size: 2.2em;
     font-family: gilroy;
   }
   h3{
-    width: 578px;
+    width: 100%;
     position: relative;
     font-family: gilroy;
     top:10px;
     display: block;
     color: black;
-    font-size: 1.5em;
+    font-size: 1.8em;
   }
   span{
     font-family: gilroy;
     display: block;
     color: #475467;
-    font-size: 1em;
-    width: 578px;
+    font-size: 1.2em;
+    width: 100%;
   }
   .item div svg{
     width: 2em;
     height: 2em;
     position: relative;
-    top:30px;
+    top:40px;
     /* text-align:center; */
     
 }

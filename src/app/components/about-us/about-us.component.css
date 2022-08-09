@@ -4,12 +4,12 @@
     height: 300px;
     background-color:white;
   }
-  .left-side{
+  .about-us-left-side{
     width: 40%;
     display: flex;
     flex-direction: column;
   }
-  .right-side{
+  .about-us-right-side{
     width: 35%;
   }
 

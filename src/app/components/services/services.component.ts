@@ -23,7 +23,7 @@ export class ServicesComponent implements OnInit {
 }
  test(){
   gsap.from(".services-right-side", { y: 50, duration: 3}); 
-  gsap.from(".services-left-side", {opacity: 0, y: 10, duration: 3});
+  //gsap.from(".services-left-side", {opacity: 0, y: 10, duration: 3});
  
 }
 }

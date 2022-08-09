@@ -4,7 +4,7 @@
     align-items:center;
     background-color:black;
     height:70px;
-    border-top: 4px dashed red;
+    border-top: 2px solid #333;
 }
 h2{
     width:40%;

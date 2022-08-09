@@ -12,6 +12,7 @@ import { TrackingSystemComponent } from './components/tracking-system/tracking-s
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CopyrightsComponent } from './components/copyrights/copyrights.component';
+import { ApiComponent } from './components/api/api.component';
 
 
 
@@ -27,6 +28,7 @@ import { CopyrightsComponent } from './components/copyrights/copyrights.componen
     AboutUsComponent,
     FooterComponent,
     CopyrightsComponent,
+    ApiComponent,
 
   ],
   imports: [

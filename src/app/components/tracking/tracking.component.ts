@@ -21,8 +21,8 @@ export class TrackingComponent implements OnInit {
 
   }
   test(){
-    gsap.from(".left-side", { y: 50, duration: 3}); 
-    gsap.from(".right-side", {opacity: 0, y: 10, duration: 3});
+    gsap.from(".tracking-left-side", { y: 50, duration: 3}); 
+    gsap.from(".tracking-right-side", {opacity: 0, y: 10, duration: 3});
   }
 
 }

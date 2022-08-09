@@ -5,7 +5,7 @@
     height:500px;
     margin-top: -4px;;
 }
-.left-side{
+.footer-left-side{
     width: 30%;
     display:flex;
     flex-direction:column;
@@ -14,21 +14,21 @@
     font-size: 1em;;
 
 }
-.left-side div{
+.footer-left-side div{
     margin: 10px;
 }
-.left-side span{
+.footer-left-side span{
    color:red;
    font-size: 1.3em
 
 }
-.right-side{
+.footer-right-side{
     display:flex;
     flex-direction:column;
     width:60%;
     background-color:black;
 }
-.right-side .title{
+.footer-right-side .title{
     height:15%;
     color: white;
     font-family: gilroy;
@@ -38,22 +38,22 @@
     position: relative;
     top:-50px;
 }
-.right-side .item{
+.footer-right-side .item{
     height:15%;
     display:flex;
     justify-content:space-around;
     align-items:center;
 }
-.right-side .message{
+.footer-right-side .message{
     height:30%;
     display:flex;
     justify-content:space-around;
     align-items:center;
 }
-.right-side .message input{ 
+.footer-right-side .message input{ 
     width:95%;
 } 
-.right-side .submit{
+.footer-right-side .submit{
     height:18%;
     display:flex;
     align-items:center;

@@ -1,0 +1,51 @@
+.api{
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    background-color:white;
+  }
+  .api-left-side{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  .api-left-side  .item{
+    display: flex;
+    width: 100%;
+  }
+  .api-left-side  .item div{
+    width: 45%;
+  }
+  .api-right-side{
+    width: 35%;
+  }
+  .api-right-side img{
+    position:relative;
+    width:100%;
+  }
+  span{
+    font-family: gilroy;
+    display: block;
+    color: #475467;
+    font-size: 1.2em;
+    height: 50px;
+  }
+  h2{
+    position: relative;
+    font-family: gilroy;
+    top:10px;
+    display: block;
+    color: black;
+    font-size: 4em;
+  }
+  h3{
+    font-family: gilroy;
+    display: block;
+    color: black;
+    font-size: 1.5em;
+  }
+  .item div svg{
+    position: relative;
+    top:10px;
+    /* text-align:center; */  
+}
